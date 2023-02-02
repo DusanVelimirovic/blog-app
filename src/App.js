@@ -1,9 +1,14 @@
 import Topbar from "./top-bar/Topbar";
+import Home from "./pages/home/Home";
 
 
 function App() {
   return (
-    <Topbar />
+    <div>
+      <Topbar />
+      <Home />
+    </div>
+
   );
 }
 
