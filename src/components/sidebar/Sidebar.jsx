@@ -4,6 +4,7 @@ import { Link } from "react-router-dom";
 import "./sidebar.css";
 
 export default function Sidebar() {
+  //fetch all categories from db
   const [cats, setCats] = useState([]);
 
   useEffect(() => {
